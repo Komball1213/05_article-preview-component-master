@@ -1,0 +1,141 @@
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: hsl(210, 46%, 95%);
+}
+
+p {
+    color: hsl(214, 17%, 51%);
+}
+
+.container {
+    height: 320px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: white;
+   
+}
+
+.image {
+    width: 400px;
+    background-image: url(images/drawers.jpg);
+    background-size: cover;
+    border-radius: 15px 0 0 15px;
+}
+
+.text-container {
+    width: 600px;
+    padding: 40px;
+}
+
+.big-text {
+    font-weight: 700;
+    font-size: 24px;
+    color: hsl(217, 19%, 35%);
+    margin-top: 0;
+
+}
+
+.div-name {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.portrait {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 30px;
+}
+
+.name-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.name {
+    margin: 0;
+    margin-bottom: 3px;
+    color: hsl(217, 19%, 35%);
+}
+
+.date {
+    margin: 0;
+
+}
+
+
+
+.share {
+    margin-left: auto;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color:  hsl(217, 19%, 35%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border: none;
+    cursor: pointer;
+}
+
+.share-dark {
+    background-color:  hsl(210, 46%, 95%);
+}
+
+
+
+.share-icon {
+    color: transparent;
+}
+
+
+.pop-up {
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+     box-sizing: border-box;
+    position: absolute;
+    bottom: 65px;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+    background-color: hsl(217, 19%, 35%);
+    height: 50px;
+    width: 250px;
+    padding: 10px 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.arrow {
+    transform: rotate(45deg);
+    background-color: hsl(217, 19%, 35%);
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: 80%;
+}
+
+.white {
+    color: hsl(212, 23%, 69%);
+    margin: 0 10px;
+    letter-spacing: 4px;
+}
+
+.attribution {
+    display: none;
+}
